@@ -5,7 +5,7 @@ on: push
 
 jobs:
   hello:
-    runs-on: windows-latest
+    runs-on: ['windows','self-hosted']
 
     steps:
       - name: Print Hello World

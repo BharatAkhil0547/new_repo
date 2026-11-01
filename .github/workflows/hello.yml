@@ -4,10 +4,10 @@ name: Hello World
 on: 
     push:
         branches:
-            - main
+            - [main,FixeYML]
     pull_request:
         branches:
-            - main
+            - [main,FixeYML]
 
 jobs:
   hello:

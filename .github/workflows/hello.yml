@@ -1,0 +1,12 @@
+
+name: Hello World
+
+on: push
+
+jobs:
+  hello:
+    runs-on: windows-latest
+
+    steps:
+      - name: Print Hello World
+        run: echo "Hello World"
